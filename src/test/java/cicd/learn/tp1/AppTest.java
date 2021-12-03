@@ -35,4 +35,16 @@ public class AppTest
     {
         assertTrue( true );
     }
+
+    public void testBon() {
+        assertEquals(2, 1+1);
+    }
+
+    public void testBon1() {
+        assertEquals(3, 1 + 2);
+    }
+
+    public void testEchoue() {
+        assertEquals(5, 4 + 2);
+    }
 }
